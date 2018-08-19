@@ -16,7 +16,7 @@ class OneHourElectricity extends Model
         'hour'      => 'required|unique:one_hour_electricities,hour,NULL,panel_id'
     ];
     /**
-     * retrieve agreegate values as per panel id
+     * retrieve aggregates values as per panel id
      * @param  $panel
      * @return array
      */
